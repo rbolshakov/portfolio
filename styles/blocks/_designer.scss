@@ -1,0 +1,41 @@
+.designer {
+  margin-top: 40px;
+  .designer_top {
+    justify-content: space-between;
+    display: flex;
+    align-items: flex-end;
+
+    .designer_title {
+      font-size: 47.3392px;
+      line-height: 59px;
+      font-weight: bold;
+      width: 123px;
+    }
+    .designer_age {
+      font-size: 18px;
+      line-height: 22px;
+      width: 155px;
+      font-weight: 400;
+      white-space: pre-line;
+    }
+    .designer_lang {
+      padding-top: 47px;
+      display: flex;
+      align-items: flex-start;
+      transform: rotate(-90deg);
+      font-size: 16px;
+      line-height: 20px;
+      font-weight: bold;
+      overflow: auto;
+      .designer_lang__grey {
+        color: var(--darkgrey-color);
+        padding-right: 5px;
+      }
+    }
+  }
+
+  .designer_bot {
+    margin-top: 40px;
+    margin-bottom: 100px;
+  }
+}

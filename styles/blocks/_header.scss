@@ -1,0 +1,30 @@
+.header {
+  .nav {
+    margin-top: 32px;
+    .header_nav {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 0;
+      .header_items {
+        list-style-type: none;
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: bold;
+        color: var(--darkgrey-color);
+        transition: transform 0.3s;
+        &:hover {
+          transform: scale(1.2);
+        }
+        &:first-child {
+          color: Var(--black-color);
+        }
+      }
+    }
+  }
+  .header_horizont {
+    margin-top: 32px;
+    border: 1px solid #828282;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+}

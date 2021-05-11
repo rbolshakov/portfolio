@@ -1,24 +1,27 @@
 .designer {
-  margin-top: 40px;
+  padding-top: 40px;
+
   .designer_top {
     justify-content: space-between;
     display: flex;
     align-items: flex-end;
 
-    .designer_title {
+    .designer_top__title {
       font-size: 47.3392px;
       line-height: 59px;
       font-weight: bold;
       width: 123px;
     }
-    .designer_age {
+
+    .designer_top__age {
       font-size: 18px;
       line-height: 22px;
       width: 155px;
       font-weight: 400;
       white-space: pre-line;
     }
-    .designer_lang {
+
+    .designer_top__items {
       padding-top: 47px;
       display: flex;
       align-items: flex-start;
@@ -26,16 +29,19 @@
       font-size: 16px;
       line-height: 20px;
       font-weight: bold;
-      overflow: auto;
-      .designer_lang__grey {
+
+      .designer_top__item {
         color: var(--darkgrey-color);
         padding-right: 5px;
+        &:last-child {
+          color: var(--black-color);
+        }
       }
     }
   }
 
   .designer_bot {
-    margin-top: 40px;
-    margin-bottom: 100px;
+    padding: 40px 0 100px 0;
+    overflow: hidden;
   }
 }

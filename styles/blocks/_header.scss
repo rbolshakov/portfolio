@@ -1,12 +1,14 @@
 .header {
-  .nav {
-    margin-top: 32px;
-    .header_nav {
+  box-sizing: border-box;
+  .header_nav {
+    padding-top: 32px;
+    .header_nav__items {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
       padding: 0;
-      .header_items {
+      margin: 0 auto;
+      .header_nav__item {
         list-style-type: none;
         font-size: 18px;
         line-height: 22px;
@@ -14,10 +16,9 @@
         color: var(--darkgrey-color);
         transition: transform 0.3s;
         &:hover {
-          transform: scale(1.2);
-        }
-        &:first-child {
-          color: Var(--black-color);
+          transform: scale(1.1);
+          color: var(--black-color);
+          cursor: pointer;
         }
       }
     }

@@ -3,12 +3,14 @@
   flex-direction: column;
   display: flex;
   align-items: center;
+
   .contacts_title {
     font-size: 34px;
     line-height: 42px;
     text-align: center;
     font-weight: bold;
   }
+
   .contacts_text {
     font-size: 18px;
     line-height: 22px;
@@ -35,6 +37,7 @@
       background: rgb(19, 16, 16);
     }
   }
+
   .contacts_link {
     margin-top: 91px;
     flex-direction: column;
@@ -52,6 +55,7 @@
         }
       }
     }
+
     .contacts_link_text {
       margin: 46px 0 123px;
       white-space: pre-line;

@@ -367,11 +367,11 @@ template {
   display: none;
 }
 
-.header .header_nav {
+.header-nav {
   padding: 32px 0;
 }
 
-.header .header_nav .header_nav__items {
+.header-nav__items {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -386,7 +386,7 @@ template {
   margin: 0 auto;
 }
 
-.header .header_nav .header_nav__items .header_nav__item {
+.header-nav__item {
   list-style-type: none;
   font-size: 18px;
   line-height: 22px;
@@ -398,14 +398,14 @@ template {
   transition: transform 0.3s, -webkit-transform 0.3s;
 }
 
-.header .header_nav .header_nav__items .header_nav__item:hover {
+.header-nav__item:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
   color: var(--black-color);
   cursor: pointer;
 }
 
-.header .header_horizont {
+.header-horizont {
   border: 1px solid #828282;
   -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
           transform: matrix(1, 0, 0, 1, 0, 0);
@@ -415,7 +415,7 @@ template {
   padding-top: 40px;
 }
 
-.designer .designer_top {
+.designer-top {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -427,14 +427,16 @@ template {
           align-items: flex-end;
 }
 
-.designer .designer_top .designer_top__title {
+.designer-top__title {
+  padding: 0;
+  margin: 0;
   font-size: 47.3392px;
   line-height: 59px;
   font-weight: bold;
   width: 123px;
 }
 
-.designer .designer_top .designer_top__age {
+.designer-top__age {
   font-size: 18px;
   line-height: 22px;
   width: 155px;
@@ -442,7 +444,7 @@ template {
   white-space: pre-line;
 }
 
-.designer .designer_top .designer_top__items {
+.designer-top__items {
   padding-top: 47px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -457,16 +459,16 @@ template {
   font-weight: bold;
 }
 
-.designer .designer_top .designer_top__items .designer_top__item {
+.designer-top__item {
   color: var(--darkgrey-color);
   padding-right: 5px;
 }
 
-.designer .designer_top .designer_top__items .designer_top__item:last-child {
+.designer-top__item:last-child {
   color: var(--black-color);
 }
 
-.designer .designer_bot {
+.designer-bot {
   padding: 40px 0 100px 0;
   overflow: hidden;
 }
@@ -476,7 +478,7 @@ template {
   height: 506px;
 }
 
-.about .about_container {
+.about-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -490,16 +492,17 @@ template {
           align-items: center;
 }
 
-.about .about_container .about_title {
+.about-title {
   font-size: 34px;
   line-height: 42px;
   text-align: center;
   color: var(--black-color);
   padding-top: 120px;
   font-weight: bold;
+  margin: 0;
 }
 
-.about .about_container .about_text {
+.about-text {
   font-size: 18px;
   line-height: 22px;
   text-align: center;
@@ -510,7 +513,7 @@ template {
 }
 
 .contacts {
-  margin-top: 115px;
+  padding-top: 115px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -523,14 +526,14 @@ template {
           align-items: center;
 }
 
-.contacts .contacts_title {
+.contacts-title {
   font-size: 34px;
   line-height: 42px;
   text-align: center;
   font-weight: bold;
 }
 
-.contacts .contacts_text {
+.contacts-text {
   font-size: 18px;
   line-height: 22px;
   font-weight: normal;
@@ -538,7 +541,7 @@ template {
   white-space: pre-line;
 }
 
-.contacts .contacts_button {
+.contacts-button {
   font-weight: bold;
   font-size: 18px;
   line-height: 22px;
@@ -557,13 +560,13 @@ template {
   transition: transform 0.3s, -webkit-transform 0.3s;
 }
 
-.contacts .contacts_button:hover {
+.contacts-button:hover {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
   background: #131010;
 }
 
-.contacts .contacts_link {
+.contacts-link {
   margin-top: 91px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -577,7 +580,7 @@ template {
   display: flex;
 }
 
-.contacts .contacts_link .contacts_social {
+.contacts-social {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -587,19 +590,19 @@ template {
           justify-content: center;
 }
 
-.contacts .contacts_link .contacts_social .contacts_item {
+.contacts-social__item {
   -webkit-transition: -webkit-transform 0.3s;
   transition: -webkit-transform 0.3s;
   transition: transform 0.3s;
   transition: transform 0.3s, -webkit-transform 0.3s;
 }
 
-.contacts .contacts_link .contacts_social .contacts_item:hover {
+.contacts-social__item:hover {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
 }
 
-.contacts .contacts_link .contacts_link_text {
+.contacts-link__text {
   margin: 46px 0 123px;
   white-space: pre-line;
   text-align: center;
